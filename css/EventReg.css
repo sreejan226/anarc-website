@@ -93,6 +93,110 @@ nav .fa {
 .location iframe {
     width: 100%;
 }
+
+/* Registration Form */
+.registration {
+    padding: 60px 0;
+    background: #f9f9f9;
+}
+.reg-container {
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+.reg-container h2 {
+    text-align: center;
+    color: #263ea6;
+    margin-bottom: 8px;
+    font-size: 28px;
+}
+.reg-subtitle {
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 6px;
+    color: #333;
+    font-weight: 500;
+    font-size: 15px;
+}
+.form-group .required {
+    color: #f44336;
+}
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    transition: border-color 0.3s;
+    box-sizing: border-box;
+    background: #fff;
+}
+.form-group input:focus,
+.form-group select:focus {
+    border-color: #263ea6;
+    box-shadow: 0 0 0 3px rgba(38, 62, 166, 0.1);
+}
+.form-group input.invalid,
+.form-group select.invalid {
+    border-color: #f44336;
+}
+.reg-btn {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    background: #263ea6;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 10px;
+}
+.reg-btn:hover {
+    background: #1a2e80;
+}
+.reg-btn:disabled {
+    background: #999;
+    cursor: not-allowed;
+}
+.form-message {
+    margin-top: 20px;
+    padding: 15px 20px;
+    border-radius: 6px;
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: center;
+}
+.form-message.success {
+    background: #e8f5e9;
+    color: #2e7d32;
+    border: 1px solid #a5d6a7;
+}
+.form-message.error {
+    background: #fce4ec;
+    color: #c62828;
+    border: 1px solid #ef9a9a;
+}
+
 .contact-us {
     width: 80%;
     margin: auto;
@@ -206,5 +310,11 @@ nav .fa {
     #mail-id {
         font-size: 16px;
     }
-
+    .reg-container {
+        width: 95%;
+        padding: 25px 20px;
+    }
+    .reg-container h2 {
+        font-size: 22px;
+    }
 }
